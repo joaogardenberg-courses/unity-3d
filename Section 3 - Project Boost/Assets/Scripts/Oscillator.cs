@@ -12,7 +12,7 @@ public class Oscillator : MonoBehaviour {
     }
 
     void Update() {
-        if (period == 0) {
+        if (period <= Mathf.Epsilon) {
             return;
         }
 

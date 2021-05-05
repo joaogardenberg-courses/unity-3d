@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 1750006278}
   - component: {fileID: 1750006279}
   - component: {fileID: 2995474924272638062}
+  - component: {fileID: 7295369240307605388}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Untagged
@@ -298,6 +299,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.4, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7295369240307605388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344933163189511151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 531917b02f4d34047aca43a5f258aee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1692689755657341688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,7 +1159,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 765908706338028246, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_Name
-      value: Left Thruster Particles (1)
+      value: Left Thruster Particles
       objectReference: {fileID: 0}
     - target: {fileID: 771087676723270698, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_RootOrder
@@ -1194,13 +1207,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
---- !u!198 &6353859754280728631 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 584678573886053986, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
-  m_PrefabInstance: {fileID: 5778192921049114197}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6522118193103417983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 771087676723270698, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
+  m_PrefabInstance: {fileID: 5778192921049114197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6353859754280728631 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 584678573886053986, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
   m_PrefabInstance: {fileID: 5778192921049114197}
   m_PrefabAsset: {fileID: 0}
